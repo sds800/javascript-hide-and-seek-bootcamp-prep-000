@@ -25,7 +25,7 @@ function deepestChild(){
 for (let i = 0; i < depth.length; i++){
   depth[i].innerHTML =+ childElementCount > 0
 
-  
+  return depth
   
 } 
     
