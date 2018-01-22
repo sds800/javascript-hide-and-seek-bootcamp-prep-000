@@ -22,7 +22,7 @@ const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
 
 function deepestChild(){
   
-  while()
+  while( )
     
   
   
