@@ -25,12 +25,11 @@ function deepestChild() {
   let dive = current.children[0]
 
   while (dive) {
-    node = nextNode
-    nextNode = node.children[0]
+    current = dive
+    dive = current.children[0]
   }
 
   return node
-}
   
 } 
     
