@@ -23,7 +23,7 @@ const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
 function deepestChild(){
   depth = document.getElementById('grand-node').querySelectorAll('div')
 for (let i = 0; i < depth.length; i++){
-  depth[i].innerHTML =+ childElementCount > 0
+  depth[i].childElementCount > 0
 
   return depth
   
