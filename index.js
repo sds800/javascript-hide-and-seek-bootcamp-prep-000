@@ -20,7 +20,7 @@ const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
   
 }
 
-function deepestChild() {
+function deepestChild(){
   let current = document.getElementById('grand-node')
   let dive = current.children[0]
 
@@ -30,9 +30,5 @@ function deepestChild() {
   }
 
   return node
-  
-} 
-    
-  
   
 }
