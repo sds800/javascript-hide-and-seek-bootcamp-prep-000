@@ -20,13 +20,17 @@ const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
   
 }
 
-function deepestChild(){
- var currentN = document.getElementById('grand-node')
- var nextN = 
-for (let i = 0; i < depth.length; i++){
-  depth[i].childElementCount > 0
+function deepestChild() {
+  let current = document.getElementById('grand-node')
+  let dive = current.children[0]
 
-  return depth
+  while (dive) {
+    node = nextNode
+    nextNode = node.children[0]
+  }
+
+  return node
+}
   
 } 
     
