@@ -21,7 +21,7 @@ const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
 }
 
 function deepestChild(){
-  
+  depth = document.getElementById('grand-node').querySelectorAll('ul.ranked-list li')
   while( )
     
   
