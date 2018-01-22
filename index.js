@@ -29,6 +29,6 @@ function deepestChild(){
     dive = current.children[0]
   }
 
-  return node
+  return current
   
 }
